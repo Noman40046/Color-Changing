@@ -3,66 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.nav-center{
-    display: flex;
-    justify-content: space-around;
-    margin: 15px;
-    h4{
-        font-size: 30px;
-        color: rgb(228, 53, 0);
-    }
-    
-    ul{
-
-        display: flex;
-        gap: 15px;
-
-        li{
-
-            list-style-type: none;
-            a{
-                text-decoration: none;
-                font-size: 20px;
-                color: rgb(228, 53, 0);
-            }
-        }
-    }
-
+body{
+    background-color: black;
 }
 
 main{
-
-
-    width: 500px;
-    height: 200px;
+    border: 1px solid black;
+    width: 400px;
+    height: 230px;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
     position: absolute;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    .container{
-        text-align: center;
-        h2{
-            border: none;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 15px;
-            background-color: rgba(0, 0, 0, 0.403);
-            color: white;
-        }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   border: none;  
+   box-shadow: rgba(2, 145, 202, 0.17) 0px -23px 25px 0px inset, rgba(14, 104, 164, 0.15) 0px -36px 30px 0px inset, rgba(2, 79, 131, 0.1) 0px -79px 40px 0px inset, rgba(84, 186, 236, 0.06) 0px 2px 1px, rgba(2, 96, 146, 0.09) 0px 4px 2px, rgba(0, 32, 70, 0.09) 0px 8px 4px, rgba(0, 44, 85, 0.09) 0px 16px 8px, rgba(0, 50, 65, 0.09) 0px 32px 16px;
+    border-radius: 10px;
+    
+
+    h1{
+        font-size: 50px;
+        color: rgb(10, 79, 227);
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: 50px;   
+        color: white;    
+    }
+
+    
         button{
             padding: 10px;
-            border-radius: 10px;
-            background-color: orange;
+            margin-top: 20px;
             border: none;
-            font-size: 15px;
-            color: rgb(249, 249, 249);
+            border-radius: 10px;    
+            box-shadow: rgba(2, 145, 202, 0.17) 0px -23px 25px 0px inset, rgba(14, 104, 164, 0.15) 0px -36px 30px 0px inset, rgba(2, 79, 131, 0.1) 0px -79px 40px 0px inset, rgba(84, 186, 236, 0.06) 0px 2px 1px, rgba(2, 96, 146, 0.09) 0px 4px 2px, rgba(0, 32, 70, 0.09) 0px 8px 4px, rgba(0, 44, 85, 0.09) 0px 16px 8px, rgba(0, 50, 65, 0.09) 0px 32px 16px;
+            color: rgb(255, 255, 255);
+            background-color: transparent;    
+            cursor: pointer; 
+            &:hover{
+                background-color: rgb(255, 174, 23);
+                transition: .3s ease-in-out;
+            }   
         }
-    }
+  
 }
-    
